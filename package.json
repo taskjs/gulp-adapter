@@ -1,0 +1,31 @@
+{
+  "name": "gulp-adapter",
+  "version": "0.1.0",
+  "description": "Transform gulp plugin into standard javascript task.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/gulp_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/gulp-adapter.git"
+  },
+  "keywords": [
+    "gulp",
+    "adapter",
+    "taskjs"
+  ],
+  "author": "Yuanyan Cao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taskjs/gulp-adapter/issues"
+  },
+  "homepage": "https://github.com/taskjs/gulp-adapter",
+  "dependencies": {
+    "execution": "^0.1.2",
+    "lodash": "^2.4.1",
+    "record": "^0.2.0",
+    "through2": "^0.6.3",
+    "vinyl": "^0.4.3"
+  }
+}
